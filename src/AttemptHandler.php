@@ -25,6 +25,19 @@ class AttemptHandler
         return $this->callFunction();
     }
 
+    public function at(DateTimeInterface $dateTime)
+    {
+        while (true) {
+            $now = new DateTime();
+            if ($now >= $dateTime) {
+                break;
+            }
+            sleep(1);
+        }
+
+        return $this->now();
+    }
+
     private function callFunction()
     {
         $attempts = 0;

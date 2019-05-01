@@ -12,7 +12,6 @@ $generateLowNumber = function() {
 };
 
 $result = attempt($generateLowNumber)
-    ->withGap(1)
-    ->now();
+    ->at(new DateTime('+5 seconds'));
 
 var_dump($result);
