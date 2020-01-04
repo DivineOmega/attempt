@@ -44,3 +44,7 @@ attempt(function() {
     // ...
 })->at($datetime);
 ```
+
+Most of these methods can be chained and used together as you might expect to give 
+the desired functionality.
+
