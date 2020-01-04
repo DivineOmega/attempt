@@ -31,10 +31,4 @@ attempt(function() {
 attempt(function() {
     // ...
 })->at($datetime);
-
-// Attempts to run the function at a specified date time. If an exception occurs, retry forever. The attempt(s) will be made in a new process, not blocking the current thread.
-attempt(function() {
-    // ...
-})->inBackground()
-  ->at($datetime);
 ```
