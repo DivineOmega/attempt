@@ -3,6 +3,11 @@
 This PHP package allows you to attempt to run a function, automatically retrying if an 
 exception occurs.
 
+It can useful for:
+
+* Unreliable connectivity or APIs
+* Interaction with rate-limited systems
+
 ## Installation
 
 To install Attempt, just run the following command.
