@@ -7,6 +7,7 @@ It can useful for:
 
 * Unreliable connectivity or APIs
 * Interaction with rate-limited systems
+* Handling unreliable input data
 
 ## Installation
 
