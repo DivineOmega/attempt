@@ -1,6 +1,6 @@
-# Attempt
+# 🔁 Attempt
 
-This package allows you to attempt to run a function, automatically retrying if an 
+This PHP package allows you to attempt to run a function, automatically retrying if an 
 exception occurs.
 
 ## Installation
