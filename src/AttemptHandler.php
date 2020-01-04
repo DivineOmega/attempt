@@ -74,13 +74,8 @@ class AttemptHandler
      */
     public function at(DateTimeInterface $dateTime)
     {
-        while (true) {
-            $now = new DateTime();
-            if ($now >= $dateTime) {
-                break;
-            }
-            sleep(1);
-        }
+        $seconds = $dateTime->getTimestamp() - (new DateTime())->getTimestamp();
+        sleep($seconds);
 
         return $this->now();
     }
