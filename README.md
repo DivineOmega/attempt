@@ -1,7 +1,18 @@
-# attempt
-Attempt to run a function, retrying if needed.
+# Attempt
+
+This package allows you to attempt to run a function, retrying if an exception occurs.
+
+## Installation
+
+To install Attempt, just run the following command.
+
+```bash
+composer require divineomega/attempt
+```
 
 ## Usage
+
+See the following usage examples.
 
 ```php
 // Attempts to run the function immediately. If an exception occurs, retry forever.
